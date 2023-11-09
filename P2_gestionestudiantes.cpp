@@ -4,20 +4,30 @@ using namespace std;
 class Estudiante{
 private:
     string nombre;
-    int edad;
+    int edad{};
     string grado;
 public:
-    void mostrar_info(){
-        cout<<"Nombre: "<<nombre<<endl;
-        cin>>nombre;
-        cout<<"Edad: "<<edad<<endl;
-        cin>>edad;
-        cout<<"Grado: "<<grado<<endl;
-        cin>>grado;
+    void mostrar_info() {
+        cout << "Ingresa el nombre del estudiante: ";
+        cin >> nombre;
+
+        cout << "Ingresa la edad del estudiante: ";
+        cin >> edad;
+
+        cout << "Ingresa el grado del estudiante: ";
+        cin >> grado;
+
+        cout << "Nombre: " << nombre << endl;
+        cout << "Edad: " << edad << " anos" << endl;
+        cout << "Grado: " << grado << endl;
     }
 };
-int main(){
-    Estudiante estudiante1;
-    estudiante1.mostrar_info();
+
+int main() {
+    Estudiante estudiante;
+
+    cout << "Por favor, proporciona la informacion del estudiante:" << endl;
+    estudiante.mostrar_info();
+
     return 0;
 }
