@@ -15,3 +15,5 @@ respuesta 2: b, Un archivo que ayuda a gestionar y automatizar la compilación d
 respuesta 3: b, Variables que almacenan la dirección de otra variable
 
 FIN DE LA PARTE 1
+
+Las preguntas de código de la parte dos podrán ser encontradas en una carpeta llamada "Parte 2" donde dentro estarán los diferentes archivos.cpp correspondientes para cada ejercicio.
