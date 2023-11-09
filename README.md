@@ -17,9 +17,19 @@ respuesta 3: b, Variables que almacenan la dirección de otra variable
 FIN DE LA PARTE 1
 
 Las preguntas de código de la parte dos serán aquellos archivos que empiecen por "P2_nombredelarchivo.cpp"
+
+
 EXPLICACIÓN DE LOS EJERCICIOS PLANTEADOS EN LA PARTE 2:
 Operaciones básicas: Introduje un cin para meter los parámetros a y b y una función suma que la realiza.
-.
+Gestion de estudiantes: He creado una clase estudiante donde se permite introducir sus valores deseados y luego nos devuelve la información concisa metida previamente
+Gestion de memoria: He creado dos variables con dos punteros que almacenan la información en un archivo void para más adelante cambiar los valores de los punteros
+Manejo de excepciones: He creado un codigo sencillo que a la hora de dividir por 0 devuelve un error que dice que no se puede divir por 0
+Registro de materias: He creado una clase estudiante y la he ampliado mediante 2 void, uno para introducir los valores de la materia y otro para que nos devuelva los mismos
+Promedio de estudiante: He creado un vector que agrupa una serie de calificaciones del 1 al 10 y he logrado que me devuelva el promedio del mismo.
+Manejo de ausencias: He creado un código que registra correctamente la ausencia de los estudiantes.
+Filtrado de estudiantes por grado: He creado varias clases de Grados y he designado unos valores a los estudiantes para mas adelante filtrarlos.
+Gestion de excepciones personalizadas: He creado una clase llamada lista de la compra donde el usuario puede introducir valores a la lista y si uno de ellos se repite salta una excepcion que lo indica.
+Registro de profesores: He creado una clase para los profesores donde dentro mediante voids catalogo su edad nombre asignatura y mas adelante me devuelve los valores previamente introducidos
 
 PARTE 3:
 3.1:La programación ha adoptado diferentes enfoques a lo largo del tiempo. Explica:
