@@ -6,7 +6,7 @@ std::string nombre;
     int edad{};
     std::string grado;
     std::string materia;
-    void mostrar_info() {
+    void mostrar_info_profesor() {
         std::cout << "Ingresa el nombre del profesor: ";
         std::cin >> nombre;
 
@@ -33,7 +33,7 @@ int main(){
     profesores profesor;
 
     std::cout << "Por favor, proporciona la informacion del profesor:" << std::endl;
-    profesor.mostrar_info();
+    profesor.mostrar_info_profesor();
     profesor.agregar_materia();
     profesor.mostrar_materias();
 
