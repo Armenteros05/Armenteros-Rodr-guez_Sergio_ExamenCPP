@@ -16,3 +16,8 @@ public:
         cin>>grado;
     }
 };
+int main(){
+    Estudiante estudiante1;
+    estudiante1.mostrar_info();
+    return 0;
+}
