@@ -7,4 +7,15 @@ int divide(int x, int y){
     }
     return x/y;
 }
-int main(){}
+int main(){
+int a,b;
+    cout<<"Ingrese el primer numero: ";
+    cin>>a;
+    cout<<"Ingrese el segundo numero: ";
+    cin>>b;
+    try {
+        int resultado = divide(a, b);
+        cout << "Resultado de la división: " << resultado << endl;
+    } catch (const char* mensaje) {
+        cout << "Excepcion detectada: " << mensaje << endl;
+    }}
