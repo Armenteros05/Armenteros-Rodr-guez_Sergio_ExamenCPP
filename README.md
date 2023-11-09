@@ -1,6 +1,9 @@
 # Armenteros-Rodriguez_Sergio_ExamenCPP
 Este es el examen parcial 1 de Sergio Armenteros Rodríguez
 https://github.com/Armenteros05/Armenteros-Rodr-guez_Sergio_ExamenCPP.git
+Medios externos utilizados:
+- Chatgpt para las completaciones de algún código.
+- Copilot para completar el código que voy escribiendo.
 Las preguntas y respuestas de las preguntas de desarrollo las podras encontrar a continuacion:
 
 Preguntas tipo test:
@@ -53,3 +56,5 @@ respuesta 3.2: En C++, cuando algo sale mal (una excepción), el programa busca 
 *¿Por qué es importante y cómo se relaciona con la gestión de excepciones?
 
 respuesta 3.3: En C++, "Adquisición de Recursos" significa obtener cosas importantes para el programa, como memoria o archivos. Es crucial porque, al usar estas cosas, debemos asegurarnos de liberarlas correctamente para evitar problemas. Si algo sale mal (una excepción), usamos bloques try y catch para manejar el error y garantizar que los recursos se liberen bien, evitando líos en el programa. Resumiendo, es como asegurarnos de tener y soltar nuestras cosas de manera ordenada para que el programa funcione sin problemas
+
+Fin del examen. Cualquier problema, no dudar en contactar: sergioarmrod28@gmail.com
