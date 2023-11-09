@@ -41,18 +41,27 @@ private:
 
 int main() {
     ListaCompra lista;
+    std::string producto;
 
-    try {
-        lista.agregarProducto("Manzanas");
-        lista.agregarProducto("Leche");
-        lista.agregarProducto("Manzanas"); // Intentar agregar un producto duplicado
-        lista.agregarProducto("Pan");
+    std::cout << "Ingrese los productos a la lista de la compra (escriba 'fin' para finalizar):\n";
 
-        // Imprimir la lista de la compra
-        lista.imprimirLista();
-    } catch (const std::exception& e) {
-        std::cerr << "Error: " << e.what() << std::endl;
+    while (true) {
+        std::cout << "Producto: ";
+        std::cin >> producto;
+
+        if (producto == "fin") {
+            break;
+        }
+
+        try {
+            lista.agregarProducto(producto);
+        } catch (const std::exception& e) {
+            std::cerr << "Error: " << e.what() << std::endl;
+        }
     }
+
+    // Imprimir la lista de la compra
+    lista.imprimirLista();
 
     return 0;
 }
