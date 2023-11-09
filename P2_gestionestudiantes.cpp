@@ -18,7 +18,7 @@ public:
         cin >> grado;
 
         cout << "Nombre: " << nombre << endl;
-        cout << "Edad: " << edad << " anos" << endl;
+        cout << "Edad: " << edad << endl;
         cout << "Grado: " << grado << endl;
     }
 };
